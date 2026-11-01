@@ -530,7 +530,7 @@ class _DatePickerState extends State<_DatePickerComponent> {
                       backgroundColor: lunarPicker
                           ? MaterialStateProperty.all(theme.doneStyle.color)
                           : MaterialStateProperty.all(Colors.transparent)),
-                  child: Text("阴历",
+                  child: Text("农历",
                       style: TextStyle(
                           color: lunarPicker
                               ? Colors.white
